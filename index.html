@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Decodificador De Texto</title>
+  </head>
+  <body>
+    <header>
+      <img src="./img/Vector.png" alt="Logo Alura" class="logo" />
+    </header>
+
+    <main class="main">
+      <section>
+        <textarea
+          class="input-texto"
+          cols="35"
+          rows="6"
+          placeholder="Digite Seu Texto"
+          autofocus
+        ></textarea>
+
+        <div>
+          <h6 class="informacao">
+            * apenas letras maiusculas ou minusculas sem acento
+          </h6>
+        </div>
+
+        <div class="botoes">
+          <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+
+          <button class="desencriptar" onclick="btnDesencriptar()">
+            Descriptografar
+          </button>
+        </div>
+      </section>
+
+      <section>
+        <textarea class="mensagem" cols="18" rows="8" id="mensagem"></textarea>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+  <footer>
+    <a href="https://www.linkedin.com/in/filipe-lima-/" target="_blank"
+      ><img src="./img/linkedin_icon-icons.com_65929 (1).png"
+    /></a>
+  </footer>
+</html>
