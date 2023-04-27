@@ -1,105 +1,63 @@
 /*--------GERAL--------*/
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
-html {
-  font-size: 16px;
-}
-
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background: #A6E3E9;
   font-family: "Inter", sans-serif;
   font-weight: 400;
+  font-size: 32px;
   line-height: 150%;
 }
 
-.container {
-  max-width: 768px;
-  margin: 0 auto;
-  padding: 2rem;
+/*--------BODY--------*/
+body {
+  background: #A6E3E9;
 }
-
 header .logo {
   padding: 15px 40px;
 }
-
 .main {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-left: 80px;
+  margin-bottom: 50px;
 }
-
 .input-texto {
-  margin-top: 1.5rem;
-  width: 100%;
+  margin-top: 90px;
 }
-
-.informacao { 
-  font-size: 0.9rem;
+.informacao {
+  font-size: 14.5px;
   position: relative;
-  margin-top: 1rem;
-  text-align: center;
+  margin-top: 20px;
+  margin-left: 100px;
 }
 
 /*------------------BUTTONS------------------*/
-
 .botoes {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  margin-top: 1rem;
+  margin-top: 20px;
+  border-color: black;
 }
-
 .encriptar {
   background-color: darkblue;
   color: white;
   cursor: pointer;
-  border: 1px solid black;
-  padding: 0.5rem 1rem;
-  border-radius: 3px;
 }
-
 .desencriptar {
-  margin-left: 1rem;
+  margin-left: 30px;
   background-color: white;
   color: #46185D;
   cursor: pointer;
-  border: 1px solid black;
-  padding: 0.5rem 1rem;
-  border-radius: 3px;
 }
-
 textarea::placeholder {
   color: #46185D;
 }
-
 .informacao {
-  font-size: 0.8rem;
+  font-size: 15px;
   font-style: italic;
 }
 
 /*------------------FOOTER------------------*/
-
 footer {
-  margin-top: 2rem;
-  text-align: center;
-}
-
-@media screen and (max-width: 768px) {
-  .container {
-    padding: 1rem;
-  }
-
-  .input-texto {
-    margin-top: 1rem;
-  }
-  
-  .informacao {
-    margin-left: 0;
-  }
+  margin: auto;
+  width: 30px;
+  height: 20px;
 }
