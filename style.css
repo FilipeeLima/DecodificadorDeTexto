@@ -80,30 +80,16 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  .wrapper {
-    width: 90%;
-    padding-right: 0;
-    height: 200px;
+  .main {
+    padding: 1rem;
+  }
+
+  .input-texto {
+    margin-top: 1rem;
   }
   
-  .wrapper.active {
-    height: 250px;
-  }
-  
-  .wrapper .header h1 {
-    font-size: 2.5rem;
-  }
-  
-  .wrapper .form input {
-    height: 30px;
-  }
-  
-  .wrapper .qr-code {
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 0;
-    border-radius: 3px;
+  .informacao {
+    margin-left: 0;
   }
 }
-
 
